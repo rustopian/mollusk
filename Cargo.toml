@@ -84,7 +84,7 @@ solana-secp256k1-program = "2.2"
 solana-secp256r1-program = "2.2"
 solana-slot-hashes = "2.2"
 solana-stake-interface = "1.0"
-solana-stake-program = "2.3"
+solana-stake-program = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 solana-svm-callback = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 solana-system-interface = { version = "1.0.0", git = "https://github.com/rustopian/system.git", branch = "create-account-prefunded" }
 solana-system-program = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
