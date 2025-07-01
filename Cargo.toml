@@ -12,6 +12,10 @@ members = [
 ]
 resolver = "2"
 
+[patches.crates-io]
+agave-feature-set = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
+solana-program-runtime = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
+
 [workspace.package]
 authors = ["Anza Technology Maintainers <maintainers@anza.xyz>"]
 repository = "https://github.com/anza-xyz/mollusk"
@@ -21,8 +25,8 @@ edition = "2021"
 version = "0.3.0"
 
 [workspace.dependencies]
-agave-feature-set = "2.3"
-agave-precompiles = "2.3"
+agave-feature-set = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
+agave-precompiles = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 bincode = "1.3.3"
 bs58 = "0.5.1"
 chrono = "0.4.38"
@@ -54,9 +58,9 @@ serde_yaml = "0.9.34"
 serial_test = "2.0"
 solana-account = "2.2"
 solana-account-info = "2.2"
-solana-bpf-loader-program = "2.3"
+solana-bpf-loader-program = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 solana-clock = "2.2"
-solana-compute-budget = "2.3"
+solana-compute-budget = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 solana-cpi = "2.2"
 solana-ed25519-program = "2.2"
 solana-epoch-rewards = "2.2"
@@ -66,13 +70,13 @@ solana-instruction = "2.2"
 solana-keccak-hasher = "2.2"
 solana-loader-v3-interface = "3.0"
 solana-loader-v4-interface = "2.2"
-solana-log-collector = "2.3"
+solana-log-collector = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 solana-logger = "2.3"
 solana-native-token = "2.2"
 solana-precompile-error = "2.2"
 solana-program-entrypoint = "2.2"
 solana-program-error = "2.2"
-solana-program-runtime = "2.3"
+solana-program-runtime = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 solana-pubkey = "2.2"
 solana-rent = "2.2"
 solana-sdk-ids = "2.2"
@@ -81,13 +85,13 @@ solana-secp256r1-program = "2.2"
 solana-slot-hashes = "2.2"
 solana-stake-interface = "1.0"
 solana-stake-program = "2.3"
-solana-svm-callback = "2.3"
-solana-system-interface = "1.0"
-solana-system-program = "2.3"
+solana-svm-callback = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
+solana-system-interface = { version = "1.0.0", git = "https://github.com/rustopian/system.git", branch = "create-account-prefunded" }
+solana-system-program = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 solana-sysvar = "2.2"
 solana-sysvar-id = "2.2"
-solana-timings = "2.3"
-solana-transaction-context = "2.3"
+solana-timings = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
+solana-transaction-context = { version = "3.0", git = "https://github.com/rustopian/agave.git", branch = "v3.0-create-account-prefunded" }
 thiserror = "1.0.64"
 tokio = "1.37.0"
 which = "=4.4.0"
