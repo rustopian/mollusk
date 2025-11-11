@@ -97,3 +97,7 @@ spl-token-interface = "2.0.0"
 thiserror = "1.0.64"
 tokio = "1.37.0"
 which = "=4.4.0"
+
+[patches.crates-io]
+solana-system-interface = "2.0"
+solana-system-program = "3.0"
